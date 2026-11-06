@@ -938,7 +938,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -1409,8 +1409,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "du \xE4r kub;\ndet finns hund;\n\xF6ppna kista;\nta nyckel;\n\xF6ppna
-    d\xF6rr;\nWOW?\n"
+  m_text: "\xF6ppna kista;\nta nyckel;\n\xF6ppna d\xF6rr;\nWOW?\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6bcd89ef77f133b428a1e00b13289d03, type: 2}
   m_sharedMaterial: {fileID: -5132865432099498288, guid: 6bcd89ef77f133b428a1e00b13289d03, type: 2}
@@ -3962,7 +3961,6 @@ GameObject:
   - component: {fileID: 1400350154}
   - component: {fileID: 1400350153}
   - component: {fileID: 1400350152}
-  - component: {fileID: 1400350151}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -3970,19 +3968,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1400350151
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1400350150}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 377eba4f4ee832247b906129449bed69, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SceneManager
-  sceneToOpen: {}
 --- !u!114 &1400350152
 MonoBehaviour:
   m_ObjectHideFlags: 0

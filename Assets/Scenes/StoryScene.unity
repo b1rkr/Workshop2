@@ -369,10 +369,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 45306168}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 377eba4f4ee832247b906129449bed69, type: 3}
+  m_Script: {fileID: 11500000, guid: 008c1b9305d985740abcbcd5e2702065, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SceneManager
-  sceneToOpen: {}
+  m_EditorClassIdentifier: Assembly-CSharp::SceneSelection
 --- !u!1 &163631736
 GameObject:
   m_ObjectHideFlags: 0
@@ -646,8 +645,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "du \xE4r kub;\ndet finns hund;\n\xF6ppna kista;\nta nyckel;\n\xF6ppna
-    d\xF6rr;\nWOW?\n"
+  m_text: "du \xE4r kub;\ndet finns hund;\nvarf\xF6r?\nvet ej."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6bcd89ef77f133b428a1e00b13289d03, type: 2}
   m_sharedMaterial: {fileID: -5132865432099498288, guid: 6bcd89ef77f133b428a1e00b13289d03, type: 2}
@@ -810,16 +808,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 45306168}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 45306173}
+        m_TargetAssemblyTypeName: SceneSelection, Assembly-CSharp
+        m_MethodName: SceneSelect
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: The Scene of All Scenes
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1731701470

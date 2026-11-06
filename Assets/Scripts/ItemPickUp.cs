@@ -4,7 +4,7 @@ using UnityEngine;
 public class ItemPickUp : MonoBehaviour
 {
     
-    private void OnTriggerEnter(Collider other)
+    private void OnCollisionEnter2D(Collision2D other)
     {
         gameObject.SetActive(false);
     }

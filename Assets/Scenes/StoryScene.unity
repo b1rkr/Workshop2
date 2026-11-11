@@ -645,7 +645,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "du \xE4r kub;\ndet finns hund;\nvarf\xF6r?\nvet ej."
+  m_text: "du \xE4r mus;\ndet finns hund;\nvarf\xF6r?\nvet ej."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6bcd89ef77f133b428a1e00b13289d03, type: 2}
   m_sharedMaterial: {fileID: -5132865432099498288, guid: 6bcd89ef77f133b428a1e00b13289d03, type: 2}

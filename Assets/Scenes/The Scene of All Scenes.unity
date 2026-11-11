@@ -998,7 +998,7 @@ MonoBehaviour:
   - "mus: Var \xE4r nyckel? Jag ser ej nyckel! "
   - 'hund: I den lilla kistan, mannen.'
   altDialogue:
-  - "hund: JA JA JAG SKA \xD6PPNA D\xD6RREN, JISSES!!!!!!"
+  - "hund: JA JA JAG SKA L\xC5SA UPP D\xD6RREN, JISSES!!!!!!"
   weapon: {fileID: 1403274216}
   onStartDialogue:
     m_PersistentCalls:
@@ -1030,6 +1030,30 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1904058390}
+        m_TargetAssemblyTypeName: UnityEngine.EventSystems.EventSystem, UnityEngine.UI
+        m_MethodName: SetSelectedGameObject
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 790240101}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 244780079}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onEndDialogueAlt:
     m_PersistentCalls:
       m_Calls:
@@ -1056,6 +1080,30 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1904058390}
+        m_TargetAssemblyTypeName: UnityEngine.EventSystems.EventSystem, UnityEngine.UI
+        m_MethodName: SetSelectedGameObject
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 790240101}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 244780079}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &355705366
 GameObject:
@@ -1836,7 +1884,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\xF6ppna kista;\nta nyckel;\n\xF6ppna d\xF6rr;\nWOW?\n"
+  m_text: tala med hund...
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6bcd89ef77f133b428a1e00b13289d03, type: 2}
   m_sharedMaterial: {fileID: -5132865432099498288, guid: 6bcd89ef77f133b428a1e00b13289d03, type: 2}

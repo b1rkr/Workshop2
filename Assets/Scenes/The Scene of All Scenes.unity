@@ -5493,14 +5493,14 @@ ParticleSystem:
   m_GameObject: {fileID: 1574143370}
   serializedVersion: 8
   lengthInSec: 1.32
-  simulationSpeed: 1
+  simulationSpeed: 2
   stopAction: 0
   cullingMode: 0
   ringBufferMode: 0
   ringBufferLoopRange: {x: 0, y: 1}
   emitterVelocityMode: 1
   looping: 1
-  prewarm: 0
+  prewarm: 1
   playOnAwake: 1
   useUnscaledTime: 0
   autoRandomSeed: 1
@@ -6054,7 +6054,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     randomizeRotationDirection: 0
-    gravitySource: 0
+    gravitySource: 1
     maxNumParticles: 1000
     customEmitterVelocity: {x: 0, y: 0, z: 0}
     size3D: 0
@@ -6119,7 +6119,7 @@ ParticleSystem:
     angle: 20.12
     length: 5
     boxThickness: {x: 0, y: 0, z: 0}
-    radiusThickness: 1
+    radiusThickness: 0
     donutRadius: 0.2
     m_Position: {x: -4.2400618, y: 0.000039282117, z: 2.3438413}
     m_Rotation: {x: 0.0009387156, y: 118.93316, z: -0.0014423811}
@@ -6202,7 +6202,7 @@ ParticleSystem:
     sphericalDirectionAmount: 0
     randomPositionAmount: 0
     radius:
-      value: 4.66
+      value: 4.23
       mode: 0
       spread: 0
       speed:
@@ -6321,7 +6321,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 10
+      scalar: 15
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -7528,7 +7528,7 @@ ParticleSystem:
         m_RotationOrder: 4
     inWorldSpace: 0
   InheritVelocityModule:
-    enabled: 0
+    enabled: 1
     m_Mode: 0
     m_Curve:
       serializedVersion: 2
@@ -8140,7 +8140,7 @@ ParticleSystem:
     strength:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1
+      scalar: 3.08
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -8297,7 +8297,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     separateAxes: 0
-    frequency: 0.5
+    frequency: 3.94
     damping: 1
     octaves: 1
     octaveMultiplier: 0.5
@@ -9391,7 +9391,7 @@ ParticleSystem:
     lifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.007
+      scalar: 0.01
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -9444,7 +9444,7 @@ ParticleSystem:
     minVertexDistance: 0
     textureMode: 0
     textureScale: {x: 1, y: 1}
-    ribbonCount: 1
+    ribbonCount: 61
     shadowBias: 0.5
     worldSpace: 0
     dieWithParticles: 1
